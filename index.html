@@ -5,9 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ToDo</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </head>
 <body>
+  <div id="app">
+    <header>
+      <h1>{{ title }}</h1>
+      <form class="form" action="">
+        <div class="input-group mb-3">
+          <input class="form-control" id="itemForm" type="text" placeholder="Add Task">
+        </div>
+      </form>
+    </header>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
